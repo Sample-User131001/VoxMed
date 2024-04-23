@@ -41,7 +41,3 @@ Our findings illustrate the platform's ability to reliably identify respiratory 
     - Upload an audio file from your digital stethoscope.
     - The application will display the predicted disease, relevant information, and images.
     - For COPD prediction, an additional information button can be clicked to display a detailed explanation.
-
-**Disclaimer:**
-
-This application is for informational purposes only and should not be used for medical diagnosis. Always consult a qualified healthcare professional for any health concerns.
