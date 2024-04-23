@@ -1,6 +1,9 @@
-## One-Step Respiratory Disease Classifier using Digital Stethoscope Sound - Readme
+## VoxMed: One-Step Respiratory Disease Classifier using Digital Stethoscope Sounds - Readme
 
-This project provides a user-friendly Streamlit application to classify respiratory diseases using audio data from a digital stethoscope. 
+We introduce VoxMed, a simple UI system that detects respiratory diseases using digital stethoscope sounds. Our goal is to overcome the challenges of traditional respiratory diagnostics, which typically involve long waits in crowded clinical settings . With VoxMed, healthcare practitioners can efficiently respond to patients' medical needs based on fast respiratory health assessments.
+Past studies have shown that machine learning algorithms can potentially evaluate medical audio data to identify illnesses. VoxMed elaborates on the previous works to develop a one-step interface that enables doctors to record patient stethoscope sounds and support seamless diagnosis and analysis of patients. VoxMed accomplishes this by employing an Audio Spectrogram Transformer(AST) to extract features and a 1-D Convolutional Neural Network (CNN) architecture for classifying diseases, as shown in Figure 1. 
+We test VoxMed's performance using the ICBHI challenge dataset, featuring stethoscope sounds gathered from patients in Greece and Portugal. Our findings demonstrate that VoxMed reliably identifies respiratory diseases such as COPD, potentially enhancing patient care.
+Our findings illustrate the platform's ability to reliably identify respiratory disorders, underlining its potential as a useful tool for respiratory disease diagnosis and therapy in clinical practice.
 
 **Features:**
 
@@ -29,11 +32,11 @@ This project provides a user-friendly Streamlit application to classify respirat
     - Modify the following paths to reflect your actual locations:
         - `'C:\\Users\\UserName\\Desktop\\RESPIRATORY DISEASE CLASSIFIER\\Model.h5'` (path to your disease classification model)
         - `'C:\\Users\\UserName\\Desktop\\RESPIRATORY DISEASE CLASSIFIER\\Assets\\Healthy.gif'` (path to the healthy image)
-        - `'C:\\Users\\UserName\\Desktop\\RESPIRATORY-DISORDERS-.jpg'` (path to the generic respiratory issues image)
+        - `'C:\\Users\\UserName\\Desktop\\RESPIRATORY DISEASE CLASSIFIER\\Assets\\RESPIRATORY-DISORDERS-.jpg'` (path to the generic respiratory issues image)
         - `'C:\\Users\\UserName\\Desktop\\RESPIRATORY DISEASE CLASSIFIER\\Assets\\COPD.png'` (path to the COPD info image )
 3. Run the application:
     - Open a terminal and navigate to the directory containing the script (`APP.py`).
-    - Run the script using `streamlit run APP.py`.
+    - Run the script using `streamlit run "C:\Users\UserName\Desktop\RESPIRATORY DISEASE CLASSIFIER\Assets\APP.py"`.
 4. Use the application:
     - Upload an audio file from your digital stethoscope.
     - The application will display the predicted disease, relevant information, and images.
