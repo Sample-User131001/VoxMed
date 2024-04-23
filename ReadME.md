@@ -4,7 +4,7 @@ This project provides a user-friendly Streamlit application to classify respirat
 
 **Features:**
 
-- Uploads a digital stethoscope audio file (WAV or MP3 format).
+- Uploads a digital stethoscope audio file (WAV format).
 - Extracts features from the audio using a pre-trained Audio Set Transfer (AST) model.
 - Predicts the most likely respiratory disease based on the extracted features using a deep learning model.
 - Displays informative messages and relevant images based on the prediction.
